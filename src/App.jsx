@@ -1,13 +1,10 @@
-import './App.css'
+import Navbar from "./components.jsx/Navbar";
 
 function App() {
- 
-
-  return (
-    <>
-      <p class="bg-sky-300" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas et repudiandae nulla quod sint culpa! Quae facere distinctio consectetur minima maiores nobis eaque ut eum nisi, sapiente commodi, ipsum officiis.</p>
-    </>
-  )
+  return <>
+  <Navbar/>
+  <h1 className="text-2xl font-bold">hello world</h1>
+  </>;
 }
 
-export default App
+export default App;
