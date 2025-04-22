@@ -1,7 +1,7 @@
 export default function Products() {
   return (
-    <div className="bg-black/60 p-8 rounded-xl max-w-6xl mx-auto mt-10">
-      <h2 className="text-white text-3xl font-bold mb-6 text-center mb-10">
+    <div className="bg-black/60 p-4 rounded-xl max-w-6xl mx-auto mt-10">
+      <h2 className="text-white text-3xl font-bold text-center mb-10">
         Nosso Menu
       </h2>
 
