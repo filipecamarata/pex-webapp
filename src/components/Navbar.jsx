@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -5,18 +6,18 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1>casa tua café</h1>
         <nav>
-          <ul className="flex space-x-6 font-medium">
+          <ul className="flex space-x-10 font-medium">
             <li>
-              <a href="#menu" className="text-lime-50 hover:underline transition duration-300 ease-in-out">sobre</a>
+              <Link to="/" className="text-lime-50 hover:underline transition duration-300 ease-in-out">home</Link>
             </li>
             <li>
-              <a href="#sobre" className="text-lime-50 hover:underline transition duration-300 ease-in-out">menu</a>
+              <Link to="/menu" className="text-lime-50 hover:underline transition duration-300 ease-in-out">menu</Link>
             </li>
             <li>
-              <a href="#contado" className="text-lime-50 hover:underline transition duration-300 ease-in-out">contato</a>
+              <Link to="/contact" className="text-lime-50 hover:underline transition duration-300 ease-in-out">contato</Link>
             </li>
             <li>
-              <a href="login" className="text-lime-50 hover:underline transition duration-300 ease-in-out"> login</a>
+              <Link to="/login" className="text-lime-50 hover:underline transition duration-300 ease-in-out"> login</Link>
             </li>
           </ul>
         </nav>

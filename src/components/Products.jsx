@@ -8,7 +8,7 @@ export default function Products() {
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
         <div className="bg-white rounded-lg overflow-hidden shadow-lg">
           <img
-            src="/cafe1.jpg"
+            src=""
             alt="Café Expresso"
             className="w-full h-48 object-cover"
           />
@@ -53,6 +53,29 @@ export default function Products() {
             <p className="text-gray-700">R$ 8,00</p>
           </div>
         </div>
+        <div className="bg-white rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="/cafe2.jpg"
+            alt="Cappuccino"
+            className="w-full h-48 object-cover"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-semibold">Cappuccino</h3>
+            <p className="text-gray-700">R$ 8,00</p>
+          </div>
+        </div>
+        <div className="bg-white rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="/cafe2.jpg"
+            alt="Cappuccino"
+            className="w-full h-48 object-cover"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-semibold">Cappuccino</h3>
+            <p className="text-gray-700">R$ 8,00</p>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
