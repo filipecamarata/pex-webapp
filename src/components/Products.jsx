@@ -1,14 +1,14 @@
 export default function Products() {
   return (
     <div className="bg-black/60 p-8 rounded-xl max-w-6xl mx-auto mt-10">
-      <h2 className="text-white text-3xl font-bold mb-6 text-center">
+      <h2 className="text-white text-3xl font-bold mb-6 text-center mb-10">
         Nosso Menu
       </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
         <div className="bg-white rounded-lg overflow-hidden shadow-lg">
           <img
-            src=""
+            src="café (4).jpg"
             alt="Café Expresso"
             className="w-full h-48 object-cover"
           />
@@ -20,7 +20,7 @@ export default function Products() {
 
         <div className="bg-white rounded-lg overflow-hidden shadow-lg">
           <img
-            src="/cafe1.jpg"
+            src="café (1).jpg"
             alt="Café Expresso"
             className="w-full h-48 object-cover"
           />
@@ -32,47 +32,47 @@ export default function Products() {
 
         <div className="bg-white rounded-lg overflow-hidden shadow-lg">
           <img
-            src="/cafe2.jpg"
+            src="café (3).jpg"
             alt="Cappuccino"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
             <h3 className="text-xl font-semibold">Cappuccino</h3>
-            <p className="text-gray-700">R$ 8,00</p>
+            <p className="text-gray-700">R$ 12,00</p>
           </div>
         </div>
 
         <div className="bg-white rounded-lg overflow-hidden shadow-lg">
           <img
-            src="/cafe2.jpg"
+            src="café (7).jpg"
             alt="Cappuccino"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
-            <h3 className="text-xl font-semibold">Cappuccino</h3>
-            <p className="text-gray-700">R$ 8,00</p>
+            <h3 className="text-xl font-semibold">Mocca</h3>
+            <p className="text-gray-700">R$ 18,00</p>
           </div>
         </div>
         <div className="bg-white rounded-lg overflow-hidden shadow-lg">
           <img
-            src="/cafe2.jpg"
+            src="café (5).jpg"
             alt="Cappuccino"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
-            <h3 className="text-xl font-semibold">Cappuccino</h3>
-            <p className="text-gray-700">R$ 8,00</p>
+            <h3 className="text-xl font-semibold">Capuccino gelado</h3>
+            <p className="text-gray-700">R$ 16,00</p>
           </div>
         </div>
         <div className="bg-white rounded-lg overflow-hidden shadow-lg">
           <img
-            src="/cafe2.jpg"
+            src="café (2).jpg"
             alt="Cappuccino"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
-            <h3 className="text-xl font-semibold">Cappuccino</h3>
-            <p className="text-gray-700">R$ 8,00</p>
+            <h3 className="text-xl font-semibold">chai</h3>
+            <p className="text-gray-700">R$ 10,00</p>
           </div>
         </div>
         
